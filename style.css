@@ -17,7 +17,6 @@ nav {
     justify-content: left;
     border-bottom: 2px solid black;
     background-color: white;
-    text-decoration: none;
 }
 
 nav button:hover{
@@ -59,7 +58,7 @@ header h1 {
     width: 6%;
     height: 6%;
     object-fit: fill;
-    filter: drop-shadow(-2px 2px 4px black);
+    filter: drop-shadow(-2px 2px 4px gray);
     border-radius: 50%;
 }
 
@@ -76,5 +75,31 @@ header h1 {
     margin: 1vh 1vh 1vh 1vh;
     background-color: white;
     border-radius: 5vh;
-    filter: drop-shadow(-4px 4px 6px black);
+    filter: drop-shadow(-4px 4px 6px gray);
+}
+
+#portfolio p {
+    text-align: center;
+}
+
+#socials #buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#socials button{
+    border: none;
+    background: none;
+}
+
+#socials img {
+    width: 10vh;
+    height: 15vh;
+    filter: drop-shadow(-4px 4px 6px gray);
+    object-fit: contain;
+    transition: width 0.3s ease;
+}
+
+#socials img:hover {
+    width: 15vh;
 }
