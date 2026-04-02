@@ -47,18 +47,25 @@ header h1 {
 }
 
 #bio #desc {
-    display: block;
+    display: flex;
+}
+
+#bio #desc img{
+    margin-left: 2vh;
+    margin-right: 5vh;
 }
 
 #bio img {
     width: 6%;
     height: 6%;
     object-fit: fill;
-    clip-path: circle();
+    filter: drop-shadow(-2px 2px 4px black);
+    border-radius: 50%;
 }
 
-#skills {
-    display: inline;
+#skill-blocks {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .skillblock {
@@ -68,4 +75,6 @@ header h1 {
     padding-top: 1px;
     margin: 1vh 1vh 1vh 1vh;
     background-color: white;
+    border-radius: 5vh;
+    filter: drop-shadow(-4px 4px 6px black);
 }
