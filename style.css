@@ -35,6 +35,7 @@ header h1 {
     color: red;
     display: flex;
     justify-content: center;
+    text-decoration: underline 2px;
 }
 
 #main {
@@ -60,6 +61,12 @@ header h1 {
     object-fit: fill;
     filter: drop-shadow(-2px 2px 4px gray);
     border-radius: 50%;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+#bio img:hover {
+    width: 8%;
+    height: 8%;
 }
 
 #skill-blocks {
@@ -76,6 +83,13 @@ header h1 {
     background-color: white;
     border-radius: 5vh;
     filter: drop-shadow(-4px 4px 6px gray);
+    transition: filter 0.3s ease, width 0.3s;
+    
+}
+
+.skillblock:hover {
+    filter: drop-shadow(0px 0px 10px aquamarine); 
+    width: 40%;
 }
 
 #portfolio p {
