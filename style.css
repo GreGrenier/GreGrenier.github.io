@@ -40,6 +40,7 @@ header h1 {
 
 #main {
     margin-left: 1%;
+    margin-right: 1%;
 }
 
 #bio {
@@ -48,6 +49,12 @@ header h1 {
 
 #bio #desc {
     display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#bio #desc p {
+    width: 100%;
 }
 
 #bio #desc img{
@@ -56,8 +63,8 @@ header h1 {
 }
 
 #bio img {
-    width: 6%;
-    height: 6%;
+    width: 10vh;
+    height: 10vh;
     object-fit: fill;
     filter: drop-shadow(-2px 2px 4px gray);
     border-radius: 50%;
@@ -65,8 +72,8 @@ header h1 {
 }
 
 #bio img:hover {
-    width: 8%;
-    height: 8%;
+    width: 12vh;
+    height: 12vh;
 }
 
 #skill-blocks {
