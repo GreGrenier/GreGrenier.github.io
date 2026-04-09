@@ -31,6 +31,12 @@ nav a{
     color: black;
 }
 
+header {
+    padding-top: 1vh;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
 header h1 {
     color: red;
     display: flex;
@@ -55,6 +61,7 @@ header h1 {
 
 #bio #desc p {
     width: 100%;
+    margin-right: 2vh;
 }
 
 #bio #desc img{
